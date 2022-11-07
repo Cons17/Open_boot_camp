@@ -1,0 +1,39 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int a;
+        int b;
+        int c;
+        int result;
+        Coches miCoches = new Coches();
+        miCoches.sumarpuertas();
+        System.out.println(miCoches.puertas);
+
+        result = suma(20,30,62);
+    }
+
+    private static int suma(int a, int b, int c) {
+
+        System.out.println(a + b + c);
+
+        return a;
+    }
+}
+
+class Coches {
+
+    public int puertas = 4;
+    private Object args;
+    public static void coches(String[] args) {
+
+
+    }
+    public void sumarpuertas() {
+        this.puertas++;
+
+
+    }
+
+}
+
+
